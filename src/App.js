@@ -10,10 +10,10 @@ function App() {
     <div className="App">
         <BrowserRouter >
             <Navbar />
-            <div className="container">
+            <div className="main">
                 <Routes>
                 {/* Rotas públicas */}
-                    <Route path="/" element={<Home />} />
+                    <Route path="/hfipe" element={<Home />} />
                     
                 </Routes> 
             </div>

@@ -1,0 +1,41 @@
+.styleUl {
+    position: absolute; 
+    margin-top: -17px;
+    background-color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+    max-height: 400px;
+    overflow: auto;
+    z-index: 2;
+    border: solid 1px #aaa;
+   /* width: 90%;*/
+}
+
+.invisible {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+.styleUl li {
+	padding:  2px 20px;
+}
+
+.styleUl li:hover {
+	background-color: #1a73e8;
+	color: #fff;
+}
+
+.styleInput {
+   /* border-bottom-right-radius: 0rem !important;
+    border-bottom-left-radius: 0rem !important;*/
+}
