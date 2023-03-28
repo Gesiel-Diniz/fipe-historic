@@ -1,0 +1,13 @@
+.vehicle-search {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("./images/vehicle_image.webp");
+    background-size: 100%;
+    .row {
+        .title {
+            margin-top: 50px;
+        }
+        padding: 20px 0px;
+    }
+    h1 {
+        color: #fff;
+    }
+}

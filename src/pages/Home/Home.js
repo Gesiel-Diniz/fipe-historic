@@ -1,9 +1,10 @@
 import './Home.scss'
+import VehicleFipe from '../../components/vehicle-fipe/VehicleFipe'
 
 function Home() {
     return (
         <div className="home">
-            <h3>Home</h3>
+            <VehicleFipe />
         </div>
     )
 }
